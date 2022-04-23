@@ -7,7 +7,7 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
     body{
-        background: #131619;
+        background: #2e2e2e;
         color: #FFF;
     }
     body, input, textarea, button{
