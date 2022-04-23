@@ -12,6 +12,7 @@ export const Container = styled.div`
 
   padding: 8px;
 
+  z-index: 10;
   .selected {
   }
 `

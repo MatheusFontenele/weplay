@@ -9,6 +9,8 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
+  z-index: 10;
+
   span {
     font-family: 'Montserrat';
     font-size: 12px;
