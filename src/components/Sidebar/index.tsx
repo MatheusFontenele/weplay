@@ -24,6 +24,7 @@ function Sidebar() {
       </Button>
       <Menu
         style={{
+          margin: '6px 0',
           paddingTop: 12,
           borderTop: '1px solid #5a5a5a'
         }}

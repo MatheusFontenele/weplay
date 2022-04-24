@@ -2,7 +2,7 @@ import Slider from 'react-slick'
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  max-width: 1440px;
+  max-width: 1980px;
   width: 100%;
 
   display: flex;
@@ -16,7 +16,7 @@ export const SliderHeader = styled(Slider)`
 
   border-radius: 4px;
   overflow: hidden;
-  max-width: 1440px;
+  max-width: 1620px;
   width: 100%;
   height: 550px;
 

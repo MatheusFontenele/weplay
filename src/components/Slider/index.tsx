@@ -28,13 +28,13 @@ function SliderImage() {
     <Container>
       <SliderHeader {...settings}>
         <SlideContainer>
-          <Image src={codBanner} width={1440} height={600} />
+          <Image src={codBanner} width={1980} height={1080} />
         </SlideContainer>
         <SlideContainer>
-          <Image src={lolBanner} width={1440} height={600} objectFit="cover" />
+          <Image src={lolBanner} width={1980} height={1080} objectFit="cover" />
         </SlideContainer>
         <SlideContainer>
-          <Image src={vavaBanner} width={1440} height={600} />
+          <Image src={vavaBanner} width={1980} height={1080} />
         </SlideContainer>
       </SliderHeader>
     </Container>

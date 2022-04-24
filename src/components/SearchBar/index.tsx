@@ -12,15 +12,15 @@ function SearchBar() {
     <Container>
       <div className="searchContent">
         <button>
-          <BiSearch size={20} color="white" />
+          <BiSearch size={30} color="white" />
         </button>
       </div>
 
       <input
         placeholder="Ex: Lol, piend, grantourn"
-        type="search"
-        name=""
-        id=""
+        type="text"
+        name="search"
+        id="search"
       />
     </Container>
   )

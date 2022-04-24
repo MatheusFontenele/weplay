@@ -25,6 +25,7 @@ function Navbar() {
           paddingBottom: '6px',
           paddingTop: '12px',
           marginBottom: 12,
+          marginTop: 12,
           borderBottom: '1px solid #616161'
         }}
       >

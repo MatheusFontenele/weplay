@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import { BiBell } from 'react-icons/bi'
-import { FaViacoin } from 'react-icons/fa'
+import { GiCometSpark } from 'react-icons/gi'
 import Button from '../Button'
 import SearchBar from '../SearchBar'
 
@@ -13,14 +13,14 @@ interface HeaderProps {
 function Header() {
   return (
     <Container>
-      <button> Fast mach </button>
+      <button className="searchMach"> FAST MACH </button>
 
       <SearchBar />
 
       <div className="profileOptions">
-        <button>
-          <FaViacoin />
-          1234 CR
+        <button className="coinButton">
+          <GiCometSpark />
+          <strong>CR 1234</strong>
         </button>
         <Button>
           <BiBell />
