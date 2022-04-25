@@ -5,11 +5,15 @@ export const Container = styled.div`
   height: 90px;
   background-color: #353940;
 
+  position: fixed;
+
+  top: 0;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  padding: 0 6px;
+  padding: 0 5.5rem;
 
   border-left: 1px solid #616161;
   border-right: 1px solid #616161;

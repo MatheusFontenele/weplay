@@ -1,9 +1,14 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  position: fixed;
+
+  top: 0;
+  right: 0;
+
   background-color: #353940;
   width: 80px;
-
+  height: 100%;
   padding: 8px;
 
   display: flex;

@@ -9,6 +9,7 @@ export default createGlobalStyle`
     body{
         background: #2e2e2e;
         color: #FFF;
+        overflow-x: hidden;
     }
     body, input, textarea, button{
         font: 400 1.6rem 'Montserrat', sans-serif;

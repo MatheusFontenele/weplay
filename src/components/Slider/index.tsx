@@ -1,44 +1,37 @@
-import { ReactNode } from 'react'
-import Slider from 'react-slick'
-
-import { Container, SlideContainer, SliderHeader } from './styles'
-
+import { Container, LogoSerie, PosterSerie, SliderHeader } from './styles'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Image from 'next/image'
 
-import codBanner from 'public/images/cod.png'
-import lolBanner from 'public/images/lolbanner.jpg'
-import vavaBanner from 'public/images/valorantbanner.jpg'
-
-interface SliderProps {
-  children: ReactNode
-}
-
-function SliderImage() {
+const SliderImages = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 700,
+    speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true
+    slidesToScroll: 1
   }
   return (
-    <Container>
-      <SliderHeader {...settings}>
-        <SlideContainer>
-          <Image src={codBanner} width={1980} height={1080} />
-        </SlideContainer>
-        <SlideContainer>
-          <Image src={lolBanner} width={1980} height={1080} objectFit="cover" />
-        </SlideContainer>
-        <SlideContainer>
-          <Image src={vavaBanner} width={1980} height={1080} />
-        </SlideContainer>
-      </SliderHeader>
-    </Container>
+    <SliderHeader {...settings}>
+      <Container>
+        <a>
+          <PosterSerie src="/images/eradogelo-slider.jpeg" alt="Era do gelo" />
+          <LogoSerie src="/images/logo-eradogelo.png" alt="logo era do gelo" />
+        </a>
+      </Container>
+      <Container>
+        <a>
+          <PosterSerie src="/images/mandalore-slider.jpeg" alt="mandalore" />
+          <LogoSerie src="/images/logo-mandalore.png" alt="logo mandalore" />
+        </a>
+      </Container>
+      <Container>
+        <a>
+          <PosterSerie src="/images/encanto-slider.jpeg" alt="encanto" />
+          <LogoSerie src="/images/logo-encanto.png" alt="logo encanto" />
+        </a>
+      </Container>
+    </SliderHeader>
   )
 }
 
-export default SliderImage
+export default SliderImages
