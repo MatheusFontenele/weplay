@@ -33,6 +33,8 @@ export const SliderHeader = styled(Slider)`
   }
 `
 
+export const SliderCardHeader = styled(Slider)``
+
 export const Container = styled.div`
   cursor: pointer;
   border-radius: 4px;

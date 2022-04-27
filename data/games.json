@@ -1,21 +1,180 @@
 {
   "recomendacao": {
     "titulo": "Recomendado para Você",
-    "filmes": [
+    "jogos": [
       {
-        "card": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1B47772E316370392848F67BA2A6F8796536060B03C09C6D566E112123020691/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal"
+        "name": "lol",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
       },
+
       {
-        "card": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/497F0CA339877F5AB8968243C6D05622777D50A611CE5C4CE6A631EDD92F2B88/scale?width=400&aspectRatio=1.78&format=jpeg"
+        "name": "ark",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/489635-285x380.jpg"
       },
+
       {
-        "card": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/34FBFAA53BD73859695ADFAAF342CF44EF80FA2C5FD75AC56ADEF31B033204E7/scale?width=400&aspectRatio=1.78&format=jpeg"
+        "name": "monarch",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/512710-285x380.jpg"
       },
+
       {
-        "card": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5A93E9EEBC1767E0229E249A5209842E11CDFFD31BC23E3C0849DE3B325C38BA/scale?width=400&aspectRatio=1.78&format=jpeg"
+        "name": "lost ark",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/490100-285x380.jpg"
       },
+
       {
-        "card": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4CD25DE463E5CC11D241D004DBD78CCAE3607610FF1DD5B095EEA3F95F368DDA/scale?width=400&aspectRatio=1.78&format=jpeg"
+        "name": "dota 2",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/29595-285x380.jpg"
+      },
+
+      {
+        "name": "hearth stone",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/138585_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "nba2k22",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/1371363232_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "fifa 22",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/1869092879_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "rocketleague",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/30921-285x380.jpg"
+      },
+
+      {
+        "name": "made 22",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/476388-285x380.jpg"
+      },
+
+      {
+        "name": "wreckfest",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/370472_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "efootball",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/1061323687_IGDB-285x380. jpg"
+      },
+
+      {
+        "name": "dayz",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/65632_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "battlefield",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/514974_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "gta",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "cs-go",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "valorant",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg"
+      },
+
+      {
+        "name": "pubg",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/493057-285x380.jpg"
+      },
+
+      {
+        "name": "pubg mobile",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/505884-285x380.jpg"
+      },
+
+      {
+        "name": "rainbowsix",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/460630-285x380.jpg"
+      },
+
+      {
+        "name": "apex legends",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/511224-285x380.jpg"
+      },
+
+      {
+        "name": "rust",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/263490_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "overwatch",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/488552-285x380.jpg"
+      },
+
+      {
+        "name": "overwatch 2",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/515025_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "cod",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/1614555304-285x380.jpg"
+      },
+
+      {
+        "name": "destiny 2",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/497057-285x380.jpg"
+      },
+
+      {
+        "name": "cod mobile",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/512818_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "genshin",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/513181-285x380.jpg"
+      },
+
+      {
+        "name": "fortnite",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg"
+      },
+
+      {
+        "name": "elder ring",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/512953_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "minecraft",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "final fantasy",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/24241_IGDB-285x380.jpg"
+      },
+
+      {
+        "name": "wow",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/18122-285x380.jpg"
+      },
+
+      {
+        "name": "sea of thieves",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/490377-285x380.jpg"
+      },
+
+      {
+        "name": "pokemon arceus",
+        "card": "https://static-cdn.jtvnw.net/ttv-boxart/561013832_IGDB-285x380. jpg"
       }
     ]
   },
