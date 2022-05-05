@@ -3,11 +3,10 @@ import styled from 'styled-components'
 export const Container = styled.div`
   width: 100%;
   height: 90px;
-  background-color: #353940;
+  background-color: #1a2127;
 
   position: fixed;
   z-index: 9;
-
 
   top: 0;
 
@@ -50,7 +49,7 @@ export const Container = styled.div`
     height: 100%;
     width: 200px;
     .coinButton {
-      background-color: #4f4f4f;
+      background-color: #2f363e;
       border: 0;
       height: 60px;
 

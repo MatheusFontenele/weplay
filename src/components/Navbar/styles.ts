@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 90px;
   height: 100vh;
 
-  background-color: #353940;
+  background-color: #1a2127;
 
   display: flex;
   flex-direction: column;

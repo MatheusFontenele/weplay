@@ -9,8 +9,14 @@ interface GameCardProps {
 function GameCard({ children }: GameCardProps) {
   return (
     <Container>
-      {children}
-      <button>Entrar</button>
+      <button>
+        {children}
+        <div className="playersCount">
+          <span>
+            Players: <strong>128</strong>
+          </span>
+        </div>
+      </button>
     </Container>
   )
 }

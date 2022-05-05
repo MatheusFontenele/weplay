@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import Slider from 'react-slick'
 
 export const SliderHeader = styled(Slider)`
-  margin: 9vh 15vh;
+  margin: 5vh 11vh;
   margin-top: 110px;
 
   ul li button {
@@ -11,7 +11,6 @@ export const SliderHeader = styled(Slider)`
       color: rgb(150, 158, 171);
     }
   }
-
   li.slick-active button:before {
     color: white;
   }
@@ -48,7 +47,7 @@ export const Container = styled.div`
       rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
 
     &:hover {
-      border: 4px solid rgb(249, 249, 249, 0.8);
+      border: 1px solid rgb(249, 249, 249, 0.8);
       transition-duration: 300ms;
     }
   }

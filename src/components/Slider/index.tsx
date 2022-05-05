@@ -1,12 +1,10 @@
 import { Container, LogoSerie, PosterSerie, SliderHeader } from './styles'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Slider from 'react-slick'
-import GameCard from '../GameCard'
 
 const SliderImages = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     autoplay: true,
     autoplaySpeed: 4000,
@@ -38,57 +36,4 @@ const SliderImages = () => {
   )
 }
 
-const SliderCards = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 5,
-    initialSlide: 0,
-  }
-  return (
-    <Slider {...settings}>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%', marginLeft: 12 }}>
-          1
-        </div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>2</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>3</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>4</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>5</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>6</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>7</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>8</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>8</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>8</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>8</div>
-      </GameCard>
-      <GameCard>
-        <div style={{ background: 'red', height: '100%' }}>8</div>
-      </GameCard>
-    </Slider>
-  )
-}
-
-export { SliderImages, SliderCards }
+export { SliderImages }

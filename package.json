@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve": "json-server -p 3333 --watch ./data/games.json"
   },
   "dependencies": {
     "axios": "^0.27.2",
