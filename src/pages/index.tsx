@@ -10,6 +10,7 @@ import Navbar from 'src/components/Navbar'
 import Sidebar from 'src/components/Sidebar'
 import { SliderImages } from 'src/components/Slider'
 
+import { Container } from '../styles/style'
 interface gamesProps {
   name: string
   card: string
@@ -21,63 +22,86 @@ interface homeProps {
 
 export default function Home({ games }: homeProps) {
   const settings = {
-    dots: false,
+    className: 'center',
     infinite: true,
+    swipeToSlide: true,
+    dots: false,
     speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 6,
+    slidesToShow: 8,
     initialSlide: 0,
     responsive: [
+      {
+        breakpoint: 2500,
+        settings: {
+          slidesToShow: 7,
+
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 2200,
+        settings: {
+          slidesToShow: 6,
+
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 1800,
+        settings: {
+          slidesToShow: 5,
+
+          infinite: true
+        }
+      },
       {
         breakpoint: 1529,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 4,
+
           infinite: true
         }
       },
       {
-        breakpoint: 1024,
+        breakpoint: 1230,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+
           infinite: true
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 870,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+
           initialSlide: 2
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 620,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          centerMode: true
         }
       }
     ]
   }
 
   return (
-    <div>
-      <Navbar />
+    <Container>
       <Header />
       <SliderImages />
-      <div
-        className="slider"
-        style={{ margin: '0 auto', display: 'flex', flexDirection: 'column' }}
-      >
+      <div className="slider">
         <div
           className="cardNav"
           style={{
             display: 'flex',
             justifyContent: 'space-between',
             fontSize: '18px',
-            marginBottom: '12px'
+            marginBottom: '12px',
+            marginLeft: '60px',
+            marginRight: '60px'
           }}
         >
           <strong>RECOMENDADOS</strong>
@@ -97,8 +121,7 @@ export default function Home({ games }: homeProps) {
           })}
         </Slider>
       </div>
-      <Sidebar />
-    </div>
+    </Container>
   )
 }
 

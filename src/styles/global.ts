@@ -22,12 +22,12 @@ export default createGlobalStyle`
         text-decoration: none;
     }
     @media(max-width: 1080px){
-      html{
+      ::root{
         font-size: 93.75%;
       }
     }
     @media(max-width: 720px){
-      html{
+      ::root{
         font-size: 87.5%;
       }
     }
