@@ -40,12 +40,12 @@ const SliderImages = () => {
 
 const SliderCards = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 8,
-    slidesToScroll: 4,
-    initialSlide: 0
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    initialSlide: 0,
   }
   return (
     <Slider {...settings}>

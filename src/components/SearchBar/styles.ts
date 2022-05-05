@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   width: 500px;
-  height: 60px;
+  height: 45px;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -12,16 +12,17 @@ export const Container = styled.div`
     background-color: #2e2e2e;
     border: 0;
     width: 100%;
-    height: 60px;
+    height: 45px;
     position: absolute;
     z-index: 0;
-    padding: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
 
     border-radius: 4px;
 
     &::placeholder {
-      font-size: 18px;
-      font-weight: 800;
+      font-size: 16px;
+      font-weight: 500;
     }
   }
 

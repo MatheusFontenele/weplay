@@ -6,6 +6,8 @@ export const Container = styled.div`
   background-color: #353940;
 
   position: fixed;
+  z-index: 9;
+
 
   top: 0;
 
