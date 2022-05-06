@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
-  height: 90px;
+  height: 75px;
   background-color: #1a2127;
 
   position: fixed;
@@ -16,17 +16,18 @@ export const Container = styled.div`
 
   padding: 0 5.5rem;
 
-  border-left: 1px solid #616161;
-  border-right: 1px solid #616161;
-  border-bottom: 0.5px solid #616161;
   button {
     margin: 0;
+    border: 0;
   }
 
   .searchMach {
+    height: 40px;
+    width: 110px;
+
     color: #fff;
 
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 500;
     padding: 8px;
 
@@ -51,12 +52,13 @@ export const Container = styled.div`
     .coinButton {
       background-color: #2f363e;
       border: 0;
-      height: 60px;
+      height: 40px;
+      width: 110px;
 
       border-radius: 8px;
       padding: 8px 12px;
       color: #fff;
-      font-size: 16px;
+      font-size: 12px;
 
       display: flex;
       justify-content: center;
