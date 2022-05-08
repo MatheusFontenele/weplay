@@ -2,17 +2,22 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 90px;
-  height: 100%;
+  height: 100vh;
+
+  position: fixed;
 
   background-color: #1a2127;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   padding: 8px;
 
-  z-index: 10;
+  top: 0;
+
+  z-index: 9;
   .selected {
   }
 `

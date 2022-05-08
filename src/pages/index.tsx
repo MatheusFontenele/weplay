@@ -1,26 +1,49 @@
 import type { GetStaticProps, NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
+
 import Slider from 'react-slick'
 import { api } from 'service/api'
 import GameCard from 'src/components/GameCard'
 import Header from 'src/components/Header'
-import Navbar from 'src/components/Navbar'
-import Sidebar from 'src/components/Sidebar'
+
 import { SliderImages } from 'src/components/Slider'
 
 import { Container } from '../styles/style'
+
 interface gamesProps {
   name: string
   card: string
 }
 
-interface homeProps {
-  games: gamesProps[]
+interface roles {
+  role: string
 }
 
-export default function Home({ games }: homeProps) {
+interface favoriteGames {
+  games: string
+}
+
+interface friendsProps {
+  id: string
+  email: string
+  username: string
+  profile: {
+    name: string
+    team: string
+    dob: string
+    about: string
+  }
+  roles: roles[]
+  favorteGames: favoriteGames[]
+  createdAt: string
+  updatedAt: string
+}
+
+interface homeProps {
+  games: gamesProps[]
+  allFriends: friendsProps[]
+}
+
+export default function Home({ games, allFriends }: homeProps) {
   const settings = {
     className: 'center',
     infinite: true,
@@ -87,24 +110,13 @@ export default function Home({ games }: homeProps) {
       }
     ]
   }
-
   return (
     <Container>
       <Header />
       <SliderImages />
       <div className="slider">
-        <div
-          className="cardNav"
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            fontSize: '18px',
-            marginBottom: '12px',
-            marginLeft: '60px',
-            marginRight: '60px'
-          }}
-        >
-          <strong>RECOMENDADOS</strong>
+        <div className="cardNav">
+          <strong>GAMES RECOMENDADOS</strong>
           <a href="">Ver mais</a>
         </div>
         <Slider {...settings}>
@@ -121,14 +133,28 @@ export default function Home({ games }: homeProps) {
           })}
         </Slider>
       </div>
+
+      <div className="social">
+        <div className="cardNav">
+          <strong>CONHECA NOVAS PESSOAS</strong>
+          <a href="">Ver mais</a>
+        </div>
+        <div className="friendsArea"></div>
+      </div>
     </Container>
   )
 }
 
 export const getStaticProps: GetStaticProps = async () => {
   const response = await api.get('/recomendacao')
+  const friends = await api.get('/social', {
+    params: {
+      _limit: 9
+    }
+  })
 
   const data = response.data.jogos
+  const friendsData = friends.data.friends
 
   const games = data.map((game: gamesProps) => {
     return {
@@ -136,9 +162,29 @@ export const getStaticProps: GetStaticProps = async () => {
       card: game.card
     }
   })
+
+  const allFriends = friendsData.map((friend: friendsProps) => {
+    return {
+      id: friend.id,
+      email: friend.email,
+      username: friend.username,
+      profile: {
+        name: friend.profile.name,
+        team: friend.profile.team,
+        dob: friend.profile.dob,
+        about: friend.profile.about
+      },
+      roles: friend.roles,
+      favorteGames: friend.favorteGames,
+      createdAt: friend.createdAt,
+      updatedAt: friend.updatedAt
+    }
+  })
+
   return {
     props: {
-      games
+      games,
+      allFriends
     }
   }
 }

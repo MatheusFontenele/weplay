@@ -3,7 +3,7 @@
     "titulo": "Recomendado para Você",
     "jogos": [
       {
-        "name": "lol",
+        "name": "League of Leagends",
         "card": "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
       },
 
@@ -215,6 +215,221 @@
       },
       {
         "card": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/EFBF275B5DB70E26FF02BF8BDCB3D7CB3A331096FAFA63861C324564553A6585/badging?width=400&aspectRatio=1.78&format=jpeg&label=disneyplusoriginal"
+      }
+    ]
+  },
+  "social": {
+    "title": "Your Friends",
+    "friends": [
+      {
+        "id": "627705049ad4588bb84263b0",
+        "email": "frederick_knowles@zaggle.google",
+        "username": "frederick91",
+        "profile": {
+          "name": "Frederick Knowles",
+          "team": "Zaggle",
+          "dob": "1991-02-20",
+          "about": "Exercitation ad consectetur amet exercitation esse deserunt ut consectetur commodo amet aliqua est et. Dolore velit id irure sunt ea ullamco consequat nulla dolore ea nulla."
+        },
+        "roles": ["member"],
+        "favorteGames": ["pubg mobile", "elder ring", "cs-go", "apex legends"],
+        "createdAt": "2013-11-20T11:23:53.807Z",
+        "updatedAt": "2013-11-21T11:23:53.807Z"
+      },
+      {
+        "id": "627705041a90a92a52ce1ff9",
+        "email": "pollard_herring@accruex.bj",
+        "username": "pollard92",
+        "profile": {
+          "name": "Pollard Herring",
+          "team": "Accruex",
+          "dob": "1992-04-30",
+          "about": "Deserunt mollit dolore nulla irure dolore occaecat culpa adipisicing do labore reprehenderit nostrud. Est eiusmod qui consequat adipisicing ex fugiat nulla cupidatat."
+        },
+        "roles": ["owner"],
+        "favorteGames": ["nba2k22", "apex legends", "cs-go", "wreckfest"],
+        "createdAt": "2014-08-09T10:57:38.175Z",
+        "updatedAt": "2014-08-10T10:57:38.175Z"
+      },
+      {
+        "id": "62770504205b2098ab7e59dc",
+        "email": "millicent_alvarez@gadtron.mtn",
+        "username": "millicent88",
+        "profile": {
+          "name": "Millicent Alvarez",
+          "team": "Gadtron",
+          "dob": "1988-08-10",
+          "about": "Voluptate voluptate culpa amet in reprehenderit sint nulla esse ullamco deserunt sunt dolor culpa. Duis magna cupidatat ea tempor eiusmod minim id proident consequat."
+        },
+        "roles": ["admin", "guest"],
+        "favorteGames": ["nba2k22", "wreckfest", "apex legends", "cs-go"],
+        "createdAt": "2011-04-05T08:17:47.404Z",
+        "updatedAt": "2011-04-06T08:17:47.404Z"
+      },
+      {
+        "id": "627705044474598bbc758963",
+        "email": "melba_dixon@intergeek.barclaycard",
+        "username": "melba94",
+        "profile": {
+          "name": "Melba Dixon",
+          "team": "Intergeek",
+          "dob": "1994-02-08",
+          "about": "Ullamco qui qui consequat reprehenderit pariatur esse ad occaecat magna commodo enim. Pariatur aliquip aliquip adipisicing proident quis in minim do."
+        },
+        "roles": ["admin", "member"],
+        "favorteGames": ["pubg mobile", "dota 2", "nba2k22"],
+        "createdAt": "2011-10-28T17:59:28.027Z",
+        "updatedAt": "2011-10-29T17:59:28.027Z"
+      },
+      {
+        "id": "62770504600c6601f20a1d80",
+        "email": "winifred_rivas@exoswitch.scb",
+        "username": "winifred90",
+        "profile": {
+          "name": "Winifred Rivas",
+          "team": "Exoswitch",
+          "dob": "1990-07-20",
+          "about": "Adipisicing duis nisi pariatur in eu. Aliquip cupidatat et deserunt id voluptate."
+        },
+        "roles": ["member", "admin"],
+        "favorteGames": ["nba2k22", "elder ring"],
+        "createdAt": "2014-08-04T15:57:43.187Z",
+        "updatedAt": "2014-08-05T15:57:43.187Z"
+      },
+      {
+        "id": "627705047084e1326e361a0e",
+        "email": "dolores_slater@norali.farm",
+        "username": "dolores93",
+        "profile": {
+          "name": "Dolores Slater",
+          "team": "Norali",
+          "dob": "1993-08-17",
+          "about": "Commodo eiusmod excepteur quis fugiat culpa mollit dolore voluptate enim aliquip eiusmod deserunt Lorem. Elit eiusmod voluptate dolor nisi consectetur."
+        },
+        "roles": ["owner", "member"],
+        "favorteGames": ["wreckfest", "cs-go", "nba2k22", "elder ring"],
+        "createdAt": "2010-12-30T07:44:01.311Z",
+        "updatedAt": "2010-12-31T07:44:01.311Z"
+      },
+      {
+        "id": "62770504ce5242d9ef076dae",
+        "email": "wise_willis@cosmosis.theater",
+        "username": "wise94",
+        "profile": {
+          "name": "Wise Willis",
+          "team": "Cosmosis",
+          "dob": "1994-06-07",
+          "about": "Aliqua ut consectetur ullamco incididunt officia magna ea consequat. Fugiat mollit irure mollit voluptate non est tempor aliquip irure ex ex minim."
+        },
+        "roles": ["guest"],
+        "favorteGames": ["nba2k22", "cs-go", "apex legends"],
+        "createdAt": "2011-12-27T20:52:26.837Z",
+        "updatedAt": "2011-12-28T20:52:26.837Z"
+      },
+      {
+        "id": "627705e3eab55b87e85a4ab3",
+        "email": "pamela_slater@comvex.bf",
+        "username": "pamela94",
+        "profile": {
+          "name": "Pamela Slater",
+          "team": "Comvex",
+          "dob": "1994-12-04",
+          "about": "Cillum duis consectetur deserunt aliqua non ipsum. Duis est duis id velit irure do in."
+        },
+        "roles": ["admin", "guest"],
+        "favorteGames": ["battlefield", "apex legends", "nba2k22", "fifa 22"],
+        "createdAt": "2012-07-05T18:26:46.177Z",
+        "updatedAt": "2012-07-06T18:26:46.177Z"
+      },
+      {
+        "id": "627705e35d4406d01353119f",
+        "email": "audrey_hoover@zeam.lv",
+        "username": "audrey88",
+        "profile": {
+          "name": "Audrey Hoover",
+          "team": "Zeam",
+          "dob": "1988-10-22",
+          "about": "Deserunt ut officia laborum ad excepteur anim eiusmod eiusmod consequat commodo. Aute voluptate elit labore dolore duis ullamco excepteur nulla eiusmod aute sint voluptate consequat."
+        },
+        "roles": ["admin", "member"],
+        "favorteGames": ["fifa 22", "wreckfest", "apex legends"],
+        "createdAt": "2013-10-21T01:10:23.007Z",
+        "updatedAt": "2013-10-22T01:10:23.007Z"
+      },
+      {
+        "id": "627705e3e6c538ad6d858738",
+        "email": "short_ward@quility.bb",
+        "username": "short89",
+        "profile": {
+          "name": "Short Ward",
+          "team": "Quility",
+          "dob": "1989-01-15",
+          "about": "Dolore do veniam ut exercitation non nostrud veniam duis in Lorem non ea ea laborum. Nulla consequat cupidatat incididunt in deserunt non esse in voluptate irure consectetur."
+        },
+        "roles": ["member"],
+        "favorteGames": ["battlefield", "cs-go", "elder ring", "fifa 22"],
+        "createdAt": "2014-03-03T13:22:32.530Z",
+        "updatedAt": "2014-03-04T13:22:32.530Z"
+      },
+      {
+        "id": "627705e35b7ca7409bba3af2",
+        "email": "avery_cochran@stockpost.rehab",
+        "username": "avery88",
+        "profile": {
+          "name": "Avery Cochran",
+          "team": "Stockpost",
+          "dob": "1988-03-12",
+          "about": "Do ad ut adipisicing commodo ad aliqua excepteur ex velit reprehenderit laborum labore deserunt. Non incididunt esse sit nulla sint."
+        },
+        "roles": ["owner"],
+        "favorteGames": ["apex legends", "pubg mobile", "cs-go", "wreckfest"],
+        "createdAt": "2012-09-09T17:22:44.616Z",
+        "updatedAt": "2012-09-10T17:22:44.616Z"
+      },
+      {
+        "id": "627705e3e49a8f5be9227a3c",
+        "email": "carey_pena@boilicon.actor",
+        "username": "carey90",
+        "profile": {
+          "name": "Carey Pena",
+          "team": "Boilicon",
+          "dob": "1990-08-01",
+          "about": "Veniam nisi cupidatat ex anim. Veniam sunt nulla fugiat cupidatat ea ad."
+        },
+        "roles": ["admin", "guest"],
+        "favorteGames": ["elder ring", "pubg mobile", "fifa 22", "cs-go"],
+        "createdAt": "2012-10-13T14:23:18.307Z",
+        "updatedAt": "2012-10-14T14:23:18.307Z"
+      },
+      {
+        "id": "627705e364315b923758a5a9",
+        "email": "rita_massey@concility.pa",
+        "username": "rita88",
+        "profile": {
+          "name": "Rita Massey",
+          "team": "Concility",
+          "dob": "1988-12-25",
+          "about": "Nostrud ullamco aliqua voluptate mollit proident commodo enim voluptate in deserunt magna qui nostrud. Occaecat anim amet occaecat est."
+        },
+        "roles": ["owner", "admin"],
+        "favorteGames": ["elder ring", "wreckfest", "fifa 22"],
+        "createdAt": "2012-08-03T13:40:35.464Z",
+        "updatedAt": "2012-08-04T13:40:35.464Z"
+      },
+      {
+        "id": "627705e3b4322755c9d56d1e",
+        "email": "savage_owens@enerforce.training",
+        "username": "savage91",
+        "profile": {
+          "name": "Savage Owens",
+          "team": "Enerforce",
+          "dob": "1991-05-30",
+          "about": "Excepteur minim duis nulla incididunt incididunt voluptate sit excepteur deserunt. Velit do tempor ipsum cupidatat officia laboris dolore nostrud adipisicing occaecat pariatur consectetur cupidatat labore."
+        },
+        "roles": ["guest", "member"],
+        "favorteGames": ["wreckfest", "apex legends", "dota 2"],
+        "createdAt": "2014-05-12T20:28:29.150Z",
+        "updatedAt": "2014-05-13T20:28:29.150Z"
       }
     ]
   }

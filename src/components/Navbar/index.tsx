@@ -19,14 +19,12 @@ interface NavbarProps {
 function Navbar() {
   return (
     <Container>
-      <Image src={logo} width={100} height={100} />
       <Menu
         style={{
           paddingBottom: '6px',
           paddingTop: '12px',
           marginBottom: 12,
-          marginTop: 12,
-          borderBottom: '1px solid #616161'
+          marginTop: 12
         }}
       >
         <Button>
@@ -37,20 +35,6 @@ function Navbar() {
         </Button>
         <Button>
           <BiTrophy />
-        </Button>
-      </Menu>
-      <Menu>
-        <Button>
-          <Image src={lolImage} width={40} height={40} />
-        </Button>
-        <Button>
-          <Image src={valorantIcon} width={40} height={40} />
-        </Button>
-        <Button>
-          <Image src={csIcon} width={40} height={40} />
-        </Button>
-        <Button>
-          <BiPlus color="yellow" />
         </Button>
       </Menu>
     </Container>

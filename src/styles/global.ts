@@ -6,6 +6,28 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    /* ===== Scrollbar CSS ===== */
+    /* Firefox */
+    * {
+      scrollbar-width: auto;
+      scrollbar-color: #c9c9c9 #0A0F13;
+    }
+
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    *::-webkit-scrollbar-track {
+      background: #0A0F13;
+    }
+
+    *::-webkit-scrollbar-thumb {
+      background-color: #c9c9c9;
+      border-radius: 5px;
+      border: 3px none #ffffff;
+    }
+
     body{
         background: #0A0F13;
         color: #FFF;
