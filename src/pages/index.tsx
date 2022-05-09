@@ -4,6 +4,7 @@ import Slider from 'react-slick'
 import { api } from 'service/api'
 import GameCard from 'src/components/GameCard'
 import Header from 'src/components/Header'
+import ProfileFriend from 'src/components/profileFriend'
 
 import { SliderImages } from 'src/components/Slider'
 
@@ -110,6 +111,7 @@ export default function Home({ games, allFriends }: homeProps) {
       }
     ]
   }
+
   return (
     <Container>
       <Header />
@@ -135,11 +137,20 @@ export default function Home({ games, allFriends }: homeProps) {
       </div>
 
       <div className="social">
-        <div className="cardNav">
-          <strong>CONHECA NOVAS PESSOAS</strong>
-          <a href="">Ver mais</a>
+        <div className="friendsArea">
+          {allFriends.map(friend => {
+            return (
+              <ProfileFriend key={friend.id}>
+                <img src="/default-profile.jpg" alt="profile photo" />
+                <span>{friend.username}</span>
+              </ProfileFriend>
+            )
+          })}
         </div>
-        <div className="friendsArea"></div>
+        <div className="cardNav">
+          <span>Amigos</span>
+          <a href="">mostrar todos</a>
+        </div>
       </div>
     </Container>
   )
@@ -149,7 +160,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const response = await api.get('/recomendacao')
   const friends = await api.get('/social', {
     params: {
-      _limit: 9
+      _limit: 8
     }
   })
 
@@ -163,7 +174,7 @@ export const getStaticProps: GetStaticProps = async () => {
     }
   })
 
-  const allFriends = friendsData.map((friend: friendsProps) => {
+  const friend = friendsData.map((friend: friendsProps) => {
     return {
       id: friend.id,
       email: friend.email,
@@ -180,6 +191,8 @@ export const getStaticProps: GetStaticProps = async () => {
       updatedAt: friend.updatedAt
     }
   })
+
+  const allFriends = friend.slice(0, 8)
 
   return {
     props: {

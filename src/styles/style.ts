@@ -88,6 +88,34 @@ export const Container = styled.div`
   }
 
   .social {
-    margin-top: 5vh;
+    margin: 5vh auto;
+
+    padding: 12px;
+
+    width: 100%;
+    max-width: 1820px;
+
+    border-radius: 12px;
+    background-color: #1a2127;
+
+    .friendsArea {
+      width: 100%;
+      height: 300px;
+
+      font-size: 16px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100px;
+        height: 100px;
+
+        border-radius: 100%;
+
+        margin-bottom: 12px;
+      }
+    }
   }
 `
