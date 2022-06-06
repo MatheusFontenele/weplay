@@ -40,7 +40,7 @@ interface homeProps {
 export default function Home({ games, allFriends }: homeProps) {
   return (
     <Container>
-      <SliderImages />
+      <h1>hello world</h1>
     </Container>
   )
 }
