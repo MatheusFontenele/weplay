@@ -2,8 +2,7 @@ import styled from 'styled-components'
 import Slider from 'react-slick'
 
 export const SliderHeader = styled(Slider)`
-  margin: 5vh 11vh;
-  margin-top: 110px;
+  margin: 2rem;
 
   ul li button {
     &:before {

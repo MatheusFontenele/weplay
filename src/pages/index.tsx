@@ -1,14 +1,7 @@
-import type { GetStaticProps, NextPage } from 'next'
-
-import Slider from 'react-slick'
-import { api } from 'service/api'
-import GameCard from 'src/components/GameCard'
-import Header from 'src/components/Header'
-import ProfileFriend from 'src/components/profileFriend'
-
+import type { GetStaticProps } from 'next'
+import { api } from 'src/service/api'
 import { SliderImages } from 'src/components/Slider'
-
-import { Container } from '../styles/style'
+import { Container } from 'src/styles/style'
 
 interface gamesProps {
   name: string
@@ -45,113 +38,9 @@ interface homeProps {
 }
 
 export default function Home({ games, allFriends }: homeProps) {
-  const settings = {
-    className: 'center',
-    infinite: true,
-    swipeToSlide: true,
-    dots: false,
-    speed: 500,
-    slidesToShow: 8,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 2500,
-        settings: {
-          slidesToShow: 7,
-
-          infinite: true
-        }
-      },
-      {
-        breakpoint: 2200,
-        settings: {
-          slidesToShow: 6,
-
-          infinite: true
-        }
-      },
-      {
-        breakpoint: 1800,
-        settings: {
-          slidesToShow: 5,
-
-          infinite: true
-        }
-      },
-      {
-        breakpoint: 1529,
-        settings: {
-          slidesToShow: 4,
-
-          infinite: true
-        }
-      },
-      {
-        breakpoint: 1230,
-        settings: {
-          slidesToShow: 3,
-
-          infinite: true
-        }
-      },
-      {
-        breakpoint: 870,
-        settings: {
-          slidesToShow: 2,
-
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 620,
-        settings: {
-          slidesToShow: 1,
-          centerMode: true
-        }
-      }
-    ]
-  }
-
   return (
     <Container>
-      <Header />
       <SliderImages />
-      <div className="slider">
-        <div className="cardNav">
-          <strong>GAMES RECOMENDADOS</strong>
-          <a href="">Ver mais</a>
-        </div>
-        <Slider {...settings}>
-          {games.map(game => {
-            return (
-              <GameCard key={game.name}>
-                <img
-                  src={game.card}
-                  alt={game.name}
-                  style={{ borderRadius: '12px' }}
-                />
-              </GameCard>
-            )
-          })}
-        </Slider>
-      </div>
-
-      <div className="social">
-        <div className="friendsArea">
-          {allFriends.map(friend => {
-            return (
-              <ProfileFriend key={friend.id}>
-                <img src="/default-profile.jpg" alt="profile photo" />
-                <span>{friend.username}</span>
-              </ProfileFriend>
-            )
-          })}
-        </div>
-        <div className="cardNav">
-          <span>Amigos</span>
-          <a href="">mostrar todos</a>
-        </div>
-      </div>
     </Container>
   )
 }
