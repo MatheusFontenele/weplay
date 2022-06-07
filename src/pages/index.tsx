@@ -1,13 +1,7 @@
 import type { GetStaticProps } from 'next'
+import Header from 'src/components/Header/Header'
 import { api } from 'src/service/api'
 import { Container } from 'src/styles/style'
-
-import {GoSearch} from "react-icons/go"
-import {HiOutlineMenuAlt1} from "react-icons/hi"
-import {FiBell} from "react-icons/fi"
-import {BiMessageSquareDetail} from "react-icons/bi"
-import Image from "next/image"
-import LogoImage from "../../public/images/Logo.png"
 
 //#region interfaces
 interface gamesProps {
@@ -48,23 +42,7 @@ interface homeProps {
 export default function Home({ games, allFriends }: homeProps) {
   return (
     <Container>
-      <nav> 
-        <div className='navLogo'>
-         <button><HiOutlineMenuAlt1 /></button>
-         <Image src={LogoImage} width={80} height={60}/>
-        </div>
-
-        <div className='navSearch'>
-          <input type="text" placeholder='Buscar'/> 
-          <button><GoSearch size={20} /></button> 
-        </div>        
-        
-        <div className='navProfile'>
-          <button><BiMessageSquareDetail /></button>
-          <button><FiBell /></button>
-          <img src="https://avatars.githubusercontent.com/u/94790993?v=4"/>
-        </div>        
-      </nav>
+      <Header />
     </Container>
   )
 }
