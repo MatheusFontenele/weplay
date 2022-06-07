@@ -29,9 +29,9 @@ export default createGlobalStyle`
     }
 
     body{
-        background: #0A0F13;
-        color: #FFF;
-        overflow-x: hidden;
+      background: linear-gradient(90deg, rgba(7,11,34,1) 0%, rgba(8,13,38,1) 28%, rgba(8,13,38,1) 59%);
+      color: #FFF;
+      overflow-x: hidden;
     }
     body, input, textarea, button{
         font: 400 1.6rem 'Montserrat', sans-serif;
