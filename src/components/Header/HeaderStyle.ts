@@ -1,11 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-  display: flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    position: fixed;
 
-    padding: 1.5rem 2rem;
+    width: 100%;
+    z-index: 10;
+    
+    padding: .5rem 2rem;
+
+    background: #0E1647;    
+    border-bottom: 1px solid #323238;
     
     .navLogo{
       display: flex;
@@ -30,7 +38,6 @@ export const Container = styled.header`
 
         background: #070A1F;
         border: 0;
-        padding-bottom: .5rem;
         padding-left: .5rem;
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
@@ -38,6 +45,9 @@ export const Container = styled.header`
         width: 25rem;
         height: 2.5rem;
         z-index: 10;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #FFF;
 
         &::placeholder{
           font-size: 1rem;
@@ -71,10 +81,11 @@ export const Container = styled.header`
       }
 
       img{
-        width: 3rem;
-        height: 3rem;
-
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 50%;
+
+        border: 3px solid #E51C44;
       }
     }
 `;

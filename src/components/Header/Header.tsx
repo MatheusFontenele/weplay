@@ -11,7 +11,7 @@ export default function Header (){
   return(
     <Container> 
       <div className='navLogo'>
-        <button><HiOutlineMenuAlt1 /></button>
+        <button><HiOutlineMenuAlt1 size={25} /></button>
         <Image src={Logo} width={80} height={60}/>
       </div>
 
@@ -21,8 +21,8 @@ export default function Header (){
       </div>        
         
       <div className='navProfile'>
-        <button><FiBell /></button>
-        <button><BiMessageSquareDetail /></button>
+        <button><FiBell size={25} /></button>
+        <button><BiMessageSquareDetail size={25} /></button>
         <img src="https://avatars.githubusercontent.com/u/94790993?v=4"/>
       </div>        
     </Container>

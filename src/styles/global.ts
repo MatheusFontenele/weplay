@@ -1,6 +1,21 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
+  :root {
+    --white: #fff;
+    --gray-100: #e1e1e6;
+    --gray-300: #c4c4cc;
+    --gray-400: #8d8d99;
+    --gray-600: #323238;
+    --gray-700: #29292e;
+    --gray-800: #202024;
+    --gray-900: #121214;
+
+    --green-300: #00b37e;
+    --green-500: #00875f;
+
+    --red-500: #f75a68;
+  }
     *{
         margin: 0;
         padding: 0;
@@ -34,7 +49,7 @@ export default createGlobalStyle`
       overflow-x: hidden;
     }
     body, input, textarea, button{
-        font: 400 1.6rem 'Montserrat', sans-serif;
+        font: 400 1.4rem 'Montserrat', sans-serif;
     }
     button{
         cursor: pointer;
