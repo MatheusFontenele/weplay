@@ -13,6 +13,13 @@ export const Container = styled.div`
     main{
       padding: 5.5rem 1rem 2rem;
       height: 1000vh;
+
+      .banner {
+        margin-top: 1rem;
+        img{
+          border-radius: 8px;
+        }
+      }
     }
   }
 `

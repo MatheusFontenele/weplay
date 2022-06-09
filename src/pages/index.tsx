@@ -1,8 +1,16 @@
 import type { GetStaticProps } from 'next'
+
+import Image from 'next/image'
+
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import Slider from 'react-slick'
+
 import Header from 'src/components/Header/Header'
 import Sidebar from 'src/components/Sidebar/Sidebar'
 import { api } from 'src/service/api'
 import { Container } from 'src/styles/style'
+import LolBanner from '/public/images/lol-slider.png'
 
 //#region interfaces
 interface gamesProps {
@@ -41,13 +49,24 @@ interface homeProps {
 //#endregion
 
 export default function Home() {
+  const settings = {
+    className: 'slider variable-width',
+    dots: true,
+    infinite: true,
+    centerMode: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true
+  }
   return (
     <Container>
       <Header />
       <div className="wrapper">
         <Sidebar />
         <main>
-          <h1>hello world</h1>
+          <div className="banner">
+            <Image src={LolBanner} />
+          </div>
         </main>
       </div>
     </Container>
